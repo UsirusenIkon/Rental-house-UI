@@ -1,6 +1,6 @@
 function Details() {
-return(
-  <h1>House Details</h1>
+  return (
+    <h1>House Details</h1>
   );
 }
 

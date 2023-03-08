@@ -7,8 +7,10 @@ const container = document.getElementById('root');
 const root = createRoot(container);
 root.render(
   <React.StrictMode>
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+    ,
   </React.StrictMode>
+  ,
 );

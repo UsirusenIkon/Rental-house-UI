@@ -1,5 +1,4 @@
 import { Routes, Route } from 'react-router-dom';
-import './App.css';
 import AddHouse from './components/AddHouse';
 import HouseList from './components/HouseList';
 // import ReserveList from './components/ReserveList';
@@ -37,10 +36,10 @@ function App() {
           <Route path="/logout" element={<Logout />} />
           {/* <Route path="/reserve-list" element={<ReserveList />} /> */}
         </Routes>
-      </div> 
-      
+      </div>
+
     </div>
-    
+
   );
 }
 
