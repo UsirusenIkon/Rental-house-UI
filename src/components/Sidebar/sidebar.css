@@ -5,8 +5,32 @@
   height: 100vh;
   border-right: 1px solid #fafafa;
   gap: 0;
-  padding: 0 1.9% 0 1.9%;
+  padding: 0 1.4% 0 0.5%;
   transition: all 0.3s ease-in-out;
+}
+
+.desktop-hum {
+  display: block;
+  float: left;
+  animation: floating 1s linear infinite;
+}
+
+@keyframes floating {
+  5% {
+    transform: translateX(0);
+  }
+
+  90% {
+    transform: translateX(0);
+  }
+
+  40% {
+    transform: translateX(-1rem);
+  }
+}
+
+.mob-hum {
+  display: none;
 }
 
 .open {
@@ -102,13 +126,13 @@
 }
 
 .social-box {
-  position: absolute;
-  bottom: 20px;
-  left: 4%;
+  margin-top: 50%;
+  left: 35%;
 }
 
 .social-link {
   color: #000;
+  margin-left: 5%;
 }
 
 .social-link:hover {
@@ -119,5 +143,17 @@
   .close {
     visibility: hidden;
     opacity: 0;
+  }
+
+  .desktop-hum {
+    display: none;
+  }
+
+  .mob-hum {
+    display: block;
+  }
+
+  .social-box {
+    display: none;
   }
 }
