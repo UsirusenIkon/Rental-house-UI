@@ -1,4 +1,4 @@
-const DeleteHouse = () => {
+function DeleteHouse() {
   return (
     <h1>Delete House</h1>
   );

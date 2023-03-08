@@ -1,4 +1,4 @@
-const ReservationForm = () => {
+function ReservationForm() {
   return (
     <h1>Reservations Form</h1>
   );

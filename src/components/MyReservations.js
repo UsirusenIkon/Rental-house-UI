@@ -1,4 +1,4 @@
-const MyReservations = () => {
+function MyReservations() {
   return (
     <h1>MyReservations</h1>
   );

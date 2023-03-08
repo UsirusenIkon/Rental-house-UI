@@ -1,4 +1,4 @@
-const HouseList = () => {
+function HouseList() {
   return (
     <h1>House List</h1>
   );

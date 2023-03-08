@@ -1,4 +1,4 @@
-const Logout = () => {
+function Logout() {
   return (
     <div>
       <h2>Logout</h2>

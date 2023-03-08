@@ -6,7 +6,7 @@ import { GoSignOut } from 'react-icons/go';
 import mainLogo from '../assests/App-logo.svg'
 import SocialIcon from './SocialIcon';
 
-const Sidebar = () => {
+function Sidebar() {
   const width = window.innerWidth < 768;
 
   return (
@@ -16,7 +16,7 @@ const Sidebar = () => {
   </div>
   <div className="nav-links">
       <NavLink to="/" className={width ? 'mobile-nav-link' : 'nav-box'} exact>
-       HOUSE LIST <BsHouseDoorFill/>
+        HOUSE LIST <BsHouseDoorFill/>
       </NavLink>
 
       <NavLink to="/add-house" className={width ? 'mobile-nav-link' : 'nav-box'}>

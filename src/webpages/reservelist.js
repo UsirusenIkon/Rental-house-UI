@@ -1,4 +1,4 @@
-const ReserveList = () => {
+function ReserveList () {
   return (
     <h1>Reserve List</h1>
   );
