@@ -54,7 +54,7 @@ function Sidebar() {
         </NavLink>
         
         <NavLink to="/logout" className={width ? 'mobile-nav-link logout' : 'nav-box logout'}>
-        Log out   <GoSignOut/>
+        Log out  <GoSignOut/>
         </NavLink>
         </div>
     
