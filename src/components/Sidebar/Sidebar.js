@@ -9,10 +9,10 @@ import {
 import { GoSignOut } from 'react-icons/go';
 import { FiMenu } from 'react-icons/fi';
 import { GrClose } from 'react-icons/gr';
-import { MdKeyboardDoubleArrowRight } from 'react-icons/md';
+import { MdKeyboardDoubleArrowRight } from 'react-icons/md';// eslint-disable-line no-use-before-define
 import mainLogo from '../../assests/logo-dark.png';
 import SocialIcon from '../SocialIcon';
-import { MdKeyboardDoubleArrowLeft } from 'react-icons/md'; // eslint-disable-line no-use-before-define
+import { MdKeyboardDoubleArrowLeft } from 'react-icons/md';// eslint-disable-line no-use-before-define
 
 function Sidebar() {
   const width = window.innerWidth < 768;
