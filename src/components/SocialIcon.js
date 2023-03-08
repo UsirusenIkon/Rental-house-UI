@@ -1,25 +1,24 @@
 import React from 'react';
 import {
-  TiSocialTwitter, TiSocialFacebook, TiSocialGooglePlus, TiSocialVimeo, TiSocialPinterest,
+  TiSocialLinkedin,
 } from 'react-icons/ti';
+
+import {
+  VscGithub, VscGlobe,
+} from 'react-icons/vsc';
+
 
 function SocialIcon() {
   return (
-    <div className="social-logo">
+    <div className="">
       <a className="social-link" href="google.com" target="_blank">
-        <TiSocialTwitter size={25} />
+        <VscGithub size={20} />
       </a>
       <a className="social-link" href="google.com" target="_blank">
-        <TiSocialFacebook size={25} />
+        <VscGlobe size={20} />
       </a>
       <a className="social-link" href="google.com" target="_blank">
-        <TiSocialGooglePlus size={25} />
-      </a>
-      <a className="social-link" href="google.com" target="_blank">
-        <TiSocialVimeo size={25} />
-      </a>
-      <a className="social-link" href="google.com" target="_blank">
-        <TiSocialPinterest size={25} />
+        <TiSocialLinkedin size={20} />
       </a>
     </div>
   );
