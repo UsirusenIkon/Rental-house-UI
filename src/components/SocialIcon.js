@@ -7,7 +7,6 @@ import {
   VscGithub, VscGlobe,
 } from 'react-icons/vsc';
 
-
 function SocialIcon() {
   return (
     <div className="">
