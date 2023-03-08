@@ -11,7 +11,7 @@ import { FiMenu } from 'react-icons/fi';
 import { GrClose } from 'react-icons/gr';
 import {
   MdKeyboardDoubleArrowRight, MdOutlineKeyboardDoubleArrowLeft
- } from 'react-icons/md';
+} from 'react-icons/md';
 import mainLogo from '../../assests/logo-dark.png';
 import SocialIcon from '../SocialIcon';
 
