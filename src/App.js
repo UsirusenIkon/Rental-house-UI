@@ -12,7 +12,7 @@ import Reserves from './webpages/reserves';
 import ReserveList from './webpages/reservelist';
 import Login from './components/Login';
 import Logout from './components/Logout';
-import Sidebar from './components/Sidebar';
+import Sidebar from './components/Sidebar/Sidebar';
 
 function App() {
   return (
