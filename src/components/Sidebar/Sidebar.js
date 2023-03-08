@@ -12,7 +12,7 @@ import { GrClose } from 'react-icons/gr';
 import { MdKeyboardDoubleArrowRight } from 'react-icons/md';
 import mainLogo from '../../assests/logo-dark.png';
 import SocialIcon from '../SocialIcon';
-import { MdKeyboardDoubleArrowLeft } from 'react-icons/md';
+import { MdKeyboardDoubleArrowLeft } from 'react-icons/md'; // eslint-disable-line no-use-before-define
 
 function Sidebar() {
   const width = window.innerWidth < 768;
