@@ -9,10 +9,10 @@ import {
 import { GoSignOut } from 'react-icons/go';
 import { FiMenu } from 'react-icons/fi';
 import { GrClose } from 'react-icons/gr';
-import { MdKeyboardDoubleArrowRight } from 'react-icons/md';// eslint-disable-line no-use-before-define
+import { MdKeyboardDoubleArrowRight } from 'react-icons/md';
 import mainLogo from '../../assests/logo-dark.png';
 import SocialIcon from '../SocialIcon';
-import { MdKeyboardDoubleArrowLeft } from 'react-icons/md';// eslint-disable-line no-use-before-define
+import { MdOutlineKeyboardDoubleArrowLeft } from 'react-icons/md';
 
 function Sidebar() {
   const width = window.innerWidth < 768;
@@ -39,7 +39,7 @@ function Sidebar() {
         onClick={onClickHandler}
         className="hamburger_menu desktop-hum"
       >
-        {open ? <MdKeyboardDoubleArrowLeft /> : <MdKeyboardDoubleArrowRight />}
+        {open ? <MdOutlineKeyboardDoubleArrowLeft /> : <MdKeyboardDoubleArrowRight />}
       </button>
 
       <div className={`sidebar ${open ? 'open' : 'close'}`}>
