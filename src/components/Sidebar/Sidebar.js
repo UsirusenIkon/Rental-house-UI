@@ -10,7 +10,7 @@ import { GoSignOut } from 'react-icons/go';
 import { FiMenu } from 'react-icons/fi';
 import { GrClose } from 'react-icons/gr';
 import {
-  MdKeyboardDoubleArrowRight, MdOutlineKeyboardDoubleArrowLeft
+  MdKeyboardDoubleArrowRight, MdOutlineKeyboardDoubleArrowLeft,
 } from 'react-icons/md';
 import mainLogo from '../../assests/logo-dark.png';
 import SocialIcon from '../SocialIcon';
