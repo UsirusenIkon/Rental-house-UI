@@ -1,4 +1,3 @@
-import { Provider } from 'react-redux';
 import { Routes, Route } from 'react-router-dom';
 import AddHouse from './components/AddHouse';
 import HouseList from './components/HouseList';
@@ -13,11 +12,10 @@ import ReserveList from './webpages/reservelist';
 import Login from './components/Login';
 import Logout from './components/Logout';
 import Sidebar from './components/Sidebar/Sidebar';
-import store from './redux/store';
 
 function App() {
   return (
-    <Provider store={store}>
+    
       <div className="App">
         <div className="sidebar-container desktop">
           <Sidebar />
@@ -39,7 +37,6 @@ function App() {
           </Routes>
         </div>
       </div>
-    </Provider>
   );
 }
 
