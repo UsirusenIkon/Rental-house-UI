@@ -9,26 +9,6 @@
   transition: all 0.3s ease-in-out;
 }
 
-.desktop-hum {
-  display: block;
-  float: left;
-  animation: floating 1s linear infinite;
-}
-
-@keyframes floating {
-  5% {
-    transform: translateX(0);
-  }
-
-  90% {
-    transform: translateX(0);
-  }
-
-  40% {
-    transform: translateX(-1rem);
-  }
-}
-
 .mob-hum {
   display: none;
 }
@@ -145,12 +125,15 @@
     opacity: 0;
   }
 
-  .desktop-hum {
-    display: none;
-  }
-
   .mob-hum {
     display: block;
+  }
+
+  .sidebar {
+    height: 450px;
+    border: 1px solid #fafafa;
+    border-radius: 0 0 90px 0;
+    box-shadow: 0 0 1.2px 1px;
   }
 
   .social-box {
