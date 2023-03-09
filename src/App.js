@@ -16,11 +16,9 @@ import Sidebar from './components/Sidebar/Sidebar';
 function App() {
   return (
     <div className="App">
-
       <div className="sidebar-container desktop">
         <Sidebar />
       </div>
-
       <div className="main-container">
         <h1>Main Page</h1>
         <Routes>
@@ -37,9 +35,7 @@ function App() {
           {/* <Route path="/reserve-list" element={<ReserveList />} /> */}
         </Routes>
       </div>
-
     </div>
-
   );
 }
 
