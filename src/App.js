@@ -1,3 +1,4 @@
+import { Provider } from 'react-redux';
 import { Routes, Route } from 'react-router-dom';
 import AddHouse from './components/AddHouse';
 import HouseList from './components/HouseList';
@@ -13,7 +14,6 @@ import Login from './components/Login';
 import Logout from './components/Logout';
 import Sidebar from './components/Sidebar/Sidebar';
 import store from './redux/store';
-import { Provider } from 'react-redux';
 
 function App() {
   return (
