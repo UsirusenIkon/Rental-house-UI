@@ -15,28 +15,27 @@ import Sidebar from './components/Sidebar/Sidebar';
 
 function App() {
   return (
-    
-      <div className="App">
-        <div className="sidebar-container desktop">
-          <Sidebar />
-        </div>
-        <div className="main-container">
-          <h1>Main Page</h1>
-          <Routes>
-            <Route path="/" exact="true" element={<HouseList />} />
-            <Route path="/houses/:id" element={<Details />} />
-            <Route path="/reserves" element={<Reserves />} />
-            <Route path="/add-house" element={<AddHouse />} />
-            <Route path="/reservelist" element={<ReserveList />} />
-            <Route path="/my-reservations" element={<MyReservations />} />
-            <Route path="/delete-house" element={<DeleteHouse />} />
-            <Route path="/reservation-form/:houseId" element={<ReservationForm />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/logout" element={<Logout />} />
-            {/* <Route path="/reserve-list" element={<ReserveList />} /> */}
-          </Routes>
-        </div>
+    <div className="App">
+      <div className="sidebar-container desktop">
+        <Sidebar />
       </div>
+      <div className="main-container">
+        <h1>Main Page</h1>
+        <Routes>
+          <Route path="/" exact="true" element={<HouseList />} />
+          <Route path="/houses/:id" element={<Details />} />
+          <Route path="/reserves" element={<Reserves />} />
+          <Route path="/add-house" element={<AddHouse />} />
+          <Route path="/reservelist" element={<ReserveList />} />
+          <Route path="/my-reservations" element={<MyReservations />} />
+          <Route path="/delete-house" element={<DeleteHouse />} />
+          <Route path="/reservation-form/:houseId" element={<ReservationForm />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/logout" element={<Logout />} />
+          {/* <Route path="/reserve-list" element={<ReserveList />} /> */}
+        </Routes>
+      </div>
+    </div>
   );
 }
 
