@@ -9,6 +9,9 @@ import {
 import { GoSignOut } from 'react-icons/go';
 import { FiMenu } from 'react-icons/fi';
 import { GrClose } from 'react-icons/gr';
+import {
+  MdKeyboardDoubleArrowRight, MdOutlineKeyboardDoubleArrowLeft,
+} from 'react-icons/md';
 import mainLogo from '../../assests/logo-dark.png';
 import SocialIcon from '../SocialIcon';
 
@@ -22,13 +25,24 @@ function Sidebar() {
 
   return (
     <div>
+      {/* Mobile botton */}
       <button
         type="button"
         onClick={onClickHandler}
-        className="hamburger_menu"
+        className="hamburger_menu mob-hum"
       >
         {open ? <GrClose /> : <FiMenu />}
       </button>
+
+      {/* Desktop Button */}
+      <button
+        type="button"
+        onClick={onClickHandler}
+        className="hamburger_menu desktop-hum"
+      >
+        {open ? <MdOutlineKeyboardDoubleArrowLeft /> : <MdKeyboardDoubleArrowRight />}
+      </button>
+
       <div className={`sidebar ${open ? 'open' : 'close'}`}>
         <div className="logo-box">
           <img className="nav-logo" src={mainLogo} alt="App Logo" />
